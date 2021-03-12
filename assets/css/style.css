@@ -1,0 +1,160 @@
+.bg-azul-nba{
+    background-color: #17408B;
+}
+
+.bg-amarelo-nba{
+    background-color:#F9A214;
+}
+
+.text-center{
+    align-items: center;
+}
+
+.text-nba{
+    font-family: helvetica;
+}
+
+.center-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.center-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt-titulo-white{
+    color: white;
+    font-family: helvetica;
+}
+
+.control-btn{
+    width:30px;
+    height: 30px;
+}
+
+.event-sombra{
+ transition: all 0.5s;
+}
+
+.event-sombra:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.time-modal{
+    width: 125px;
+    height: 8rem;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.time-modal img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Cores com efeito */
+.bg-efeito-azul-nba{
+    background-color: #17408B;
+}
+
+.bg-efeito-azul-nba:hover{
+    background-color: #123474;
+}
+
+.bg-efeito-amarelo-nba{
+    background-color: #F9A214;
+}
+
+.bg-efeito-amarelo-nba:hover{
+    background-color: #f9a114d2;
+}
+
+
+/* Teste cards */
+
+.card-bulls-principal{
+    background-color: #000000;
+    color: white;
+}
+
+.card-bulls-principal:hover {
+    background-color: #cf093ebe;
+}
+
+.btn-bulls-principal{
+    background-color: #ffffff5e;
+    color: white;
+}
+
+.card-bulls-principal:hover .btn-bulls-principal{
+    background-color: #000000;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+.card-lakers-principal{
+    background-color: #000000;
+    color: white;
+}
+
+.card-lakers-principal:hover {
+   background-color: #fdbb21;
+   color: black;
+}
+
+.btn-lakers-principal{
+    background-color: #ffffff5e;
+    color: white;
+}
+
+.card-lakers-principal:hover .btn-lakers-principal{
+    background-color: #471572d2;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+.card-lakers-secundario{
+    background-color: #000000;
+    color: white;
+}
+
+.card-lakers-secundario:hover {
+   background-color: #471572d2;
+   
+}
+
+.btn-lakers-secundario{
+    background-color: #ffffff5e;
+    color: white;
+}
+
+.card-lakers-secundario:hover .btn-lakers-secundario{
+    background-color: #fdbb21;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+.card-celtics-principal{
+    background-color: #000000;
+    color: white;
+}
+
+.card-celtics-principal:hover {
+   background-color: #008348d5;
+}
+
+.btn-celtics-principal{
+    background-color: #ffffff5e;
+    color: white;
+}
+
+.card-celtics-principal:hover .btn-celtics-principal{
+    background-color: #A8342E;
+}
