@@ -2,8 +2,22 @@
     background-color: #17408B;
 }
 
+.bg-gradiente{
+    background: rgb(52,58,64);
+background: linear-gradient(0deg, rgba(52,58,64,1) 0%, rgba(255,255,255,1) 100%);
+}
+.bg-gradiente-2{
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(23,64,139,1) 100%);
+}
 .bg-amarelo-nba{
     background-color:#F9A214;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-center{
@@ -13,6 +27,20 @@
 .text-nba{
     font-family: helvetica;
 }
+
+.text-nba-content{
+    font-family: helvetica;
+    text-align: justify;
+    color: white;
+}
+
+.text-nba-center{
+    font-family: helvetica;
+    text-align: center;
+    color: white;
+}
+
+
 
 .center-row{
     display: flex;
@@ -97,6 +125,10 @@
     background-color: #000000;
 }
 
+.card-bulls-principal:hover .card-footer{
+    background-color: #000000;
+}
+
 /* ////////////////////////////////////////////////////////////////////////////// */
 
 .card-lakers-principal{
@@ -116,6 +148,11 @@
 
 .card-lakers-principal:hover .btn-lakers-principal{
     background-color: #471572d2;
+}
+
+.card-lakers-principal:hover .card-footer{
+    background-color: #471572d2;
+    color: white
 }
 
 /* ////////////////////////////////////////////////////////////////////////////// */
@@ -157,4 +194,30 @@
 
 .card-celtics-principal:hover .btn-celtics-principal{
     background-color: #A8342E;
+}
+
+.card-celtics-principal:hover .card-footer{
+    background-color: #A8342E;
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+.card-golden-principal{
+    background-color: #000000;
+    color: white;
+}
+
+.card-golden-principal:hover {
+   background-color: #006BB8;
+}
+
+.btn-golden-principal{
+    background-color: #ffffff5e;
+    color: white;
+}
+
+.card-golden-principal:hover .btn-celtics-principal{
+    background-color: #FDBA21;
+}
+
+.card-golden-principal:hover .card-footer{
+    background-color: #FDBA21;
 }
