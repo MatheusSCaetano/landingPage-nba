@@ -1,5 +1,39 @@
+html{
+    scroll-behavior: smooth;
+ }
+
+ /* <Scrollbar> */
+
+        /* Width */
+        ::-webkit-scrollbar {
+            width: 13px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            opacity: 0.1;
+            background: rgb(30, 30, 30);
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: rgb(45, 45, 45);
+            opacity: 0;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(65, 65, 65);
+        }
+
+        /* </Scrollbar> */   
+
 .bg-azul-nba{
     background-color: #17408B;
+}
+
+.text-azul-nba{
+    color:#17408B;
 }
 
 .bg-gradiente{
