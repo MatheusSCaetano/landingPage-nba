@@ -38,7 +38,7 @@ html{
 
 .bg-gradiente{
     background: rgb(52,58,64);
-background: linear-gradient(0deg, rgba(52,58,64,1) 0%, rgba(255,255,255,1) 100%);
+background: linear-gradient(0deg, rgba(52,58,64,1) 6%, rgba(105,110,114,1) 12%, rgba(151,155,157,1) 16%, rgba(255,255,255,1) 23%);
 }
 .bg-gradiente-2{
     background: rgb(255,255,255);
