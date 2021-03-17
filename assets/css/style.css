@@ -65,17 +65,14 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(23,64,139,1) 100
 .featurette-divider{
     margin-top: 80px;
     margin-bottom: 80px;
-    background-color: #acacac;
+    background-color: #2c2c2c;
 }
 
-.featurette-divider-ultimo{
-    margin-top: 80px;
-    margin-bottom: 0px;
-    background-color: #f5dcb4;
-}
 
-.borda-20{
-    border-radius: 20px;
+.borda-10{
+    border-radius: 10px;
+    border-color: #F9A214;
+    border-style: outset;
 }
 
 .flex-center{
@@ -102,6 +99,10 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(23,64,139,1) 100
     font-family: helvetica;
     text-align: center;
     color: white;
+}
+
+.text-left{
+    text-align:left;
 }
 
 
