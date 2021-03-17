@@ -2,6 +2,10 @@ html{
     scroll-behavior: smooth;
  }
 
+ body{
+     background-color: rgb(30, 30, 30);
+ }
+
  /* <Scrollbar> */
 
         /* Width */
@@ -46,6 +50,32 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(23,64,139,1) 100
 }
 .bg-amarelo-nba{
     background-color:#F9A214;
+}
+
+.bg-vermelho-nba{
+    background-color:#C9082A;
+}
+
+.b-amarelo-grossa{
+    border-radius: 30px;
+    border-color: #F9A214;
+    border-style: outset;
+}
+
+.featurette-divider{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #f5dcb4;
+}
+
+.featurette-divider-ultimo{
+    margin-top: 80px;
+    margin-bottom: 0px;
+    background-color: #f5dcb4;
+}
+
+.borda-20{
+    border-radius: 20px;
 }
 
 .flex-center{
@@ -105,6 +135,14 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(23,64,139,1) 100
 .event-sombra:hover{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.teste-transform{
+    transition: all 0.5s;
+}
+
+.teste-transform:hover{
+    transform: scale(1.1);
 }
 
 .time-modal{
@@ -248,7 +286,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(23,64,139,1) 100
     color: white;
 }
 
-.card-golden-principal:hover .btn-celtics-principal{
+.card-golden-principal:hover .btn-golden-principal{
     background-color: #FDBA21;
 }
 
