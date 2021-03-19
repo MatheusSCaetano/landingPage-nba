@@ -4,6 +4,7 @@ let assunto = document.querySelector("#assunto")
 let nomeok = false
 let emailok = false
 let assuntook = false
+let menu = document.querySelector(".navbar")
 
 function validaNome(){
     let txtNome = document.querySelector('#txtNome')
@@ -64,3 +65,12 @@ document.querySelector("#btn-enviar").addEventListener("click",function(){
         alert("AVISO: PREENCHA O FORMULÁRIO CORRETAMENTE")
     }
 })
+
+
+function esconderMenu(){
+    menu.style.display='none'
+}
+
+function mostrarMenu(){
+    menu.style.display='flex'
+}

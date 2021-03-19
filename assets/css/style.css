@@ -6,6 +6,15 @@ html{
      background-color: rgb(30, 30, 30);
  }
 
+ .navbar{
+     width: 100vw;
+     position: fixed;
+     top:0;
+     z-index: 9999;
+     margin-bottom:5%;
+ }
+
+
  /* <Scrollbar> */
 
         /* Width */
